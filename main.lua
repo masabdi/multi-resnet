@@ -65,7 +65,7 @@ for epoch = startEpoch, opt.nEpochs do
       print(' * Best model ', testTop1, testTop5)
    end
    if epoch % 10 == 0 then
-     checkpoints.save(epoch, model, trainer.optimState, bestModel, opt)
+     --checkpoints.save(epoch, model, trainer.optimState, bestModel, opt)
    end
    torch.save(string.format('%s/trainErrors.dat', opt.save),trainErrors)
    torch.save(string.format('%s/testErrors.dat', opt.save),testErrors)
