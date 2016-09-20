@@ -11,11 +11,11 @@ Note: The code is based on https://github.com/facebook/fb.resnet.torch and https
 
 #### CIFAR-10 Test Error 
 
-| Network       | depth |  k  | Test Error         | 
-| ------------- | ----- | --- | ------------------ |
-| Pre-Resnet    | 1001  |  1  |  4.62(4.69+/-0.20) | 
-| Multi-Resnet  |  200  |  5  |  **4.35**(4.36+/-0.04) | 
-| Multi-Resnet  |  398  |  5  |        **3.92**        | 
+| Network       | depth |  k  | Parameters | Test Error           | 
+| ------------- | ----- | --- | ---------- | -------------------- |
+| Pre-Resnet    | 1001  |  1  |   10.2M    |  4.62(4.69+/-0.20)   | 
+| Multi-Resnet  |  200  |  5  |   10.2M    |**4.35**(4.36+/-0.04) | 
+| Multi-Resnet  |  398  |  5  |   20.4M    |       **3.92**       | 
 
 
 
