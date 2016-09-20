@@ -9,9 +9,9 @@ Implementation of Multi-Residual Networks (http://arxiv.org/abs/1609.05672).
 Note: The code is based on https://github.com/facebook/fb.resnet.torch and https://github.com/KaimingHe/resnet-1k-layers
 
 
-#### CIFAR-10 Test Error 
+#### CIFAR-10 Test Error Rates
 
-| Network       | depth |  k  | Parameters | Test Error           | 
+| Network       | depth |  k  | Parameters | Test Error (%)       | 
 | ------------- | ----- | --- | ---------- | -------------------- |
 | Pre-Resnet    | 1001  |  1  |   10.2M    |  4.62(4.69+/-0.20)   | 
 | Multi-Resnet  |  200  |  5  |   10.2M    |**4.35**(4.36+/-0.04) | 
