@@ -7,7 +7,7 @@ Implementation of Multi-Residual Networks (http://arxiv.org/abs/1609.05672).
 
 
 ##Notes: 
-ImageNet results are out http://image-net.org/challenges/LSVRC/2016/results.
+ImageNet results are out: http://image-net.org/challenges/LSVRC/2016/results
 
 Facebook AI Research has used multi-way resnet which seems very similar to our model.
 
