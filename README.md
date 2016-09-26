@@ -6,8 +6,9 @@ By Masoud Abdi and Saeid Nahavandi
 Implementation of Multi-Residual Networks (http://arxiv.org/abs/1609.05672).
 
 
-##Note: 
-It seems that Facebook AI Research used a very similar model to ours in ILSVRC http://image-net.org/challenges/LSVRC/2016/results
+##Notes: 
+It seems that Facebook AI Research used a very similar model to ours in ILSVRC 2016
+http://image-net.org/challenges/LSVRC/2016/results
 
 
 #### CIFAR-10 Test Error Rates
