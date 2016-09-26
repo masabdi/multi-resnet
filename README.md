@@ -6,7 +6,8 @@ By Masoud Abdi and Saeid Nahavandi
 Implementation of Multi-Residual Networks (http://arxiv.org/abs/1609.05672).
 
 
-Note: The code is based on https://github.com/facebook/fb.resnet.torch and https://github.com/KaimingHe/resnet-1k-layers
+##Note: 
+It seems that Facebook AI Research used a very similar model to ours in ILSVRC http://image-net.org/challenges/LSVRC/2016/results
 
 
 #### CIFAR-10 Test Error Rates
@@ -18,8 +19,10 @@ Note: The code is based on https://github.com/facebook/fb.resnet.torch and https
 | Multi-Resnet  |  398  |  5  |   20.4M    |       **3.92**       | 
 
 
+The code is based on https://github.com/facebook/fb.resnet.torch and https://github.com/KaimingHe/resnet-1k-layers
 
-#Usage:
+
+##Usage:
 ```bash
 th main.lua -netType multi-resnet -depth 200 -k 5 -batchSize 64 -nGPU 2 -nThreads 4 -dataset cifar10 -nEpochs 200 -shareGradInput false
 ```
